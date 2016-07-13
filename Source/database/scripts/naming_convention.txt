@@ -1,0 +1,26 @@
+
+Format used for each object will be: 
+
+- table name 
+ business object (use singular) 
+
+Example: Obejct is members 
+ table name should be :  
+  member
+
+- for table ids
+ objectname plus id (all lowercased)
+ 
+Example: 
+if object is user 
+userid 
+
+
+- for names - all lowercased, but do not include the object name: 
+wrong:   personfirstname ,, or username
+correct:  lastname, firstname
+
+TODO
+Add format for dates types to be used 
+what are the standard columns like <createdby column> <creationdated> <recordstamp column> <lastupdatedby> <lastupdatedate> 
+ 
