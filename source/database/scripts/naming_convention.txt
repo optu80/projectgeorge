@@ -20,6 +20,8 @@ userid
 wrong:   personfirstname ,, or username
 correct:  lastname, firstname
 
+Dates will be saved in UTC time - code needs to convert the dates to UTC before saving.
+
 TODO
 Add format for dates types to be used 
 what are the standard columns like <createdby column> <creationdated> <recordstamp column> <lastupdatedby> <lastupdatedate> 
